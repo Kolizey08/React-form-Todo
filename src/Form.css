@@ -1,0 +1,67 @@
+.divMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    width: 390px;
+    margin: auto;
+}
+.inp {
+    width: 300px;
+    height: 25px;
+    font-size: 16px;
+}
+.btn {
+    color: white;
+    background: blue;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.divTextBlur {
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    margin-top: 5px;
+    text-shadow: #f44336 1px 0 10px;
+}
+
+.divArr {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.divElementArray {
+    display: flex;
+    margin-right: 15px;
+    margin-top: 25px;
+    background: #9090ece6;
+    color: #0404c6;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.divTextArray{
+    padding: 2px;
+    padding-left: 4px;
+}
+
+.divBtn {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.btnArray {
+    border: 1px;
+    background: #0404c6;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+}
